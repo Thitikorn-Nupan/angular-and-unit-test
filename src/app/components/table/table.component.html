@@ -1,0 +1,21 @@
+<div class="alert alert-success">
+  {{title}}
+</div>
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+    <th scope="col">Status</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let user of users">
+    <th scope="row">1</th>
+    <td>{{user.name}}</td>
+    <td>{{user.age}}</td>
+    <td>{{user.status}}</td>
+  </tr>
+  </tbody>
+</table>
